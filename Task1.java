@@ -24,7 +24,7 @@ public class Task1 {
 				System.out.println("Пожалуйста, введите корректное целое или дробное число.");
 			}
 		}
-
+		in.close();
 		return result;
 	}
 }
